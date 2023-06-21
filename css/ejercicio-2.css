@@ -1,0 +1,90 @@
+.box1 {
+    width: 400px;
+    height: 400px;
+    border: 2px dashed darkkhaki;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+}
+
+.box2 {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  border:  2px dashed darkkhaki;
+  justify-content: space-around; 
+}
+
+.box3 {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  border: 2px dashed rgb(216, 5, 5);
+  align-items: flex-end;
+  
+}
+
+.boxInter1 {
+  width: 50px;
+  height: 50px;
+  background-color: coral;
+}
+
+.boxInter2 {
+  width: 50px;
+  height: 50px;
+  background-color: cornflowerblue;
+  align-self: center;
+}
+
+.boxInter3 {
+  width: 50px;
+  height: 50px;
+  background-color: darkseagreen;
+  align-self: flex-end;
+}
+
+.boxInter4 {
+  width: 50px;
+  height: 50px;
+  background-color: coral;
+  align-self: center;
+}
+
+.boxInter5 {
+  width: 100%;
+  height: 50px;
+  background-color: cornflowerblue;
+  align-self: center;
+}
+
+.boxInter6 {
+  width: 50px;
+  height: 50px;
+  background-color: darkseagreen;
+  align-self: center;
+}
+
+.boxInter7 {
+  width: 50px;
+  height: 50px;
+  background-color: coral;
+  
+}
+
+.boxInter8 {
+  width: 50px;
+  height: 50px;
+  background-color: cornflowerblue;
+  
+}
+
+.boxInter9 {
+  width: 50px;
+  height: 50px;
+  background-color: darkseagreen;
+  
+}

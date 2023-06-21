@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+  <header class="container-nav">
+    <nav class="navbar" role="navigation">
+      <a href="index.html" class="brand">Mi página web</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="About.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <button class="button-menu-toggle">Menu</button>
+  </header>
+
+  <main>
+    <div class="formSt">
+      <form id="myForm">
+        <ul>
+          <li>
+            <label for="email">Correo electrónico:</label>
+            <input type="" id="email" name="email" >
+          </li>
+            <label id="infoMail" style="color:red"></label> 
+          <li>
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="user_name">
+          </li>
+          <label id="infoName" style="color:red"></label> 
+          <li>
+            <label for="identification">Identificacion:</label>
+      (event)">
+          </li>
+          <label id="infoIdentification" style="color:red"></label>
+          <li>
+            <label for="msg">Mensaje:</label>
+            <textarea id="msg" name="user_message"></textarea>
+          </li>
+          <label id="infoMensaje" style="color:red"></label> 
+  
+          <li class="button">
+          <button type="submit" >Enviar</button>
+          </li>
+        </ul>   
+      </form>
+    
+      <button onclick="clearForm()">Limpiar</button>
+    </div>
+  </main>
+
+  <footer class="footerMyPage">
+    <H1>soy un Footer</H1>
+  </footer>
+  
+  
+
+  <script type="text/javascript" src="javaScript.js"></script>
+</body>
+</html>

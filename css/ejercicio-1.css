@@ -1,0 +1,22 @@
+.interior {
+  background-color: rgb(123, 161, 197);
+  width: 400px;
+  height: 200px;
+  border: 3px solid black 
+}
+
+.medio {
+  background-color: rgb(145, 255, 0);
+  width: 400px;
+  height: 200px;
+  margin: 30px;
+  padding: 20px;
+  border: solid 2px black
+}
+
+.exterior {
+  background-color: pink;
+  width: 500px;
+  height: 300px;
+  border: 3px solid black 
+}

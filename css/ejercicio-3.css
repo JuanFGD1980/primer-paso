@@ -1,0 +1,30 @@
+body {
+  background-color:aqua;
+}
+
+@media (max-width: 800px) { 
+  .bodyResponse{
+    background-color:red;
+  }
+ }
+
+
+@media (max-width: 600px) { 
+  .bodyResponse{
+    background-color:rgb(221, 245, 10);
+  }
+ }
+
+/*  body {
+  background-color: blue;
+}
+@media screen and (max-width: 600px) {
+  body {
+    background-color: green;
+  }
+}
+@media screen and (max-width: 400px) {
+  body {
+    background-color: red;
+  }
+} */

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario</title>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <link rel="stylesheet" href="css/style5.css">
+</head>
+<body>
+
+  <form id="myForm">
+    <ul>
+      <li>
+        <label for="email">Correo electrónico:</label>
+        <input type="" id="email" name="email" >
+      </li>
+        <label id="infoMail" style="color:red"></label> 
+      <li>
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" name="user_name">
+      </li>
+      <label id="infoName" style="color:red"></label> 
+      <li>
+        <label for="identification">Identificacion:</label>
+        <input type="text" id="identification" name="identification" onkeypress="return soloNumeros(event)">
+      </li>
+      <label id="infoIdentification" style="color:red"></label>
+      <li>
+        <label for="msg">Mensaje:</label>
+        <textarea id="msg" name="user_message"></textarea>
+      </li>
+      <label id="infoMensaje" style="color:red"></label> 
+
+      <li class="button">
+      <button type="submit" >Enviar</button>
+      </li>
+    </ul>   
+  </form>
+  
+ <button onclick="clearForm()">Limpiar</button>
+
+  <script type="text/javascript" src="js/app2.js"></script>
+  <!-- <script type="text/javascript" src="js/javascript.js"></script> -->
+</body>
+</html>

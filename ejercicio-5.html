@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejercicio 5</title>
+</head>
+<body>
+
+  <div class="container">
+    <div class="row1">
+      <label for="inputId">Ingresa Dato 1</label>
+      <input type="text" id="inputId" onkeypress="return soloNumeros(event)">
+      <label for="inputId2">Ingresa Dato 2</label>
+      <input type="text" id="inputId2" onkeypress="return soloNumeros(event)">
+    </div>
+    <br>
+    <div class="row2">
+      <button onclick="operationsAdition()">+</button>
+      <button onclick="operationsSubtraction()">-</button>
+      <button onclick="operationsMultiplication()">X</button>
+      <button onclick="operationsDivision()">/</button>
+
+    </div>
+    <br>
+    <label for="">Resultado</label>
+    <label for="" id="result"></label>
+
+    <script type="text/javascript" src="js/ejercicio-5.js"></script>
+  </div>
+  
+</body>
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/ejercicio-8.css">
+
+  <style>
+    /* Estilos CSS para los mensajes de error */
+    .error-message {
+        color: red;
+        font-size: 12px;
+    }
+</style>
+</head>
+<body>
+  <form id="formulario" onsubmit="agregarFila(event)">
+    <div>
+        <label for="correo">Correo electrónico:</label>
+        <input type="email" id="correo" required>
+        <span id="error-correo" class="error-message"></span>
+    </div>
+    <div>
+        <label for="edad">Edad:</label>
+        <input type="number" id="edad" required>
+        <span id="error-edad" class="error-message"></span>
+    </div>
+    <div>
+        <label for="tipo-empleado">Tipo de empleado:</label>
+        <select id="tipo-empleado" onchange="mostrarCampos()">
+            <option value="">Seleccionar</option>
+            <option value="vendedor">Vendedor</option>
+            <option value="encargado">Encargado de turno</option>
+            <option value="supervisor">Supervisor general</option>
+        </select>
+    </div>
+    <div id="campos-vendedor" style="display: none;">
+        <label for="cantidad-ventas">Cantidad de ventas:</label>
+        <input type="number" id="cantidad-ventas">
+        <span id="error-cantidad-ventas" class="error-message"></span>
+        <br>
+        <label for="monto-vendido">Monto total vendido:</label>
+        <input type="number" id="monto-vendido" step="0.01">
+        <span id="error-monto-vendido" class="error-message"></span>
+    </div>
+    <div id="campos-encargado" style="display: none;">
+        <label for="empleados-cargo">Cantidad de empleados a cargo:</label>
+        <input type="number" id="empleados-cargo">
+        <span id="error-empleados-cargo" class="error-message"></span>
+    </div>
+    <div id="campos-supervisor" style="display: none;">
+        <label for="locales-administrados">Cantidad de locales administrados:</label>
+        <input type="number" id="locales-administrados">
+        <span id="error-locales-administrados" class="error-message"></span>
+        <br>
+        <label for="descripcion-desempeno">Descripción del desempeño general:</label>
+        <textarea id="descripcion-desempeno"></textarea>
+        <span id="error-descripcion-desempeno" class="error-message"></span>
+    </div>
+    <div>
+        <fieldset>
+            <legend>Turno:</legend>
+            <label for="turno-manana">
+                <input type="radio" id="turno-manana" name="turno" value="manana"> Mañana
+            </label>
+            <label for="turno-tarde">
+                <input type="radio" id="turno-tarde" name="turno" value="tarde"> Tarde
+            </label>
+        </fieldset>
+    </div>
+    <div>
+        <label for="color-favorito">Color favorito:</label>
+        <input type="text" id="color-favorito" list="colores">
+        <datalist id="colores">
+            <option value="amarillo">
+            <option value="azul">
+            <option value="rojo">
+            <option value="verde">
+            <option value="naranja">
+            <option value="violeta">
+            <option value="blanco">
+            <option value="negro">
+        </datalist>
+    </div>
+    <div>
+        <input type="submit" value="Submit" id="submit-button" disabled>
+    </div>
+  </form>
+  <table id="tabla-datos">
+    <thead>
+        <tr>
+            <th>Correo electrónico</th>
+            <th>Edad</th>
+            <th>Tipo de empleado</th>
+            <th>Turno</th>
+            <th>Color favorito</th>
+        </tr>
+    </thead>
+    <tbody>
+
+    </tbody>
+  </table>
+  <script src="js/ejercicio-8.js"></script>
+
+  
+</body>
+</html>

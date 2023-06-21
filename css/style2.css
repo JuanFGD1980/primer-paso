@@ -1,0 +1,95 @@
+html{
+  color: lightslategrey;
+}
+
+body{
+  background-color: aquamarine;
+}
+
+h1{
+  font-family:'Times New Roman', Times, serif;
+  font-size: 40px;
+  text-align: center;
+}
+
+h2{
+  color: blue;
+  text-align: center;
+}
+
+p{
+  text-align: center;
+}
+
+.Pinicial{
+  color:rgb(104, 46, 46);
+  text-align: justify;
+  background-color: rgb(211, 218, 223);
+}
+
+.parafo01{
+
+  color: chocolate;
+}
+
+.parafo02{
+  color:yellow
+}
+.parafoimg{
+  color: black
+}
+
+#divPadre {
+  height:100px;
+  width:800px;
+  
+  background-color:blue;
+  
+}
+
+input{
+  margin:0px auto;
+}
+
+label{
+margin: 50px;
+}
+
+button{
+  background-color:yellow;
+  color:green;
+  border: 5px solid;
+  border-radius: 10px;
+  margin-top:25px;
+}
+
+#img_Mario{
+  width:25%;
+}
+
+/* #divFormulario{
+  width: 100%;
+  color:white;
+  flex-direction: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hijo {
+  width: 50%;
+  max-width: 400px;
+  margin: 0 auto;
+} */
+
+#label1{
+  color: red;
+
+}
+
+#img_Mario:hover{
+  border-radius:50%;
+  -webkit-border-radius:50%;
+  box-shadow: 0px 0px 15px 15px #ec731e;
+  -webkit-box-shadow: 0px 0px 15px 15px #ec731e;
+  transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  }

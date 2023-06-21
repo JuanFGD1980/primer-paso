@@ -1,0 +1,17 @@
+/* Estilos CSS para los inputs válidos */
+input:valid,
+textarea:valid {
+    border-color: green;
+}
+
+/* Estilos CSS para los inputs inválidos */
+input:invalid,
+textarea:invalid {
+    border-color: red;
+}
+
+/* Estilos CSS para los mensajes de error */
+.error-message {
+    color: red;
+    font-size: 12px;
+}
